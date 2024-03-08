@@ -20,6 +20,7 @@ BuildRequires:	compiler(go-compiler)
 BuildRequires:	golang(go.uber.org/multierr)
 %if %{with check}
 BuildRequires:	golang(github.com/stretchr/testify/assert)
+BuildRequires:	golang(go.uber.org/goleak)
 %endif
 BuildArch:	noarch
 
